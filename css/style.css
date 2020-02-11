@@ -29,6 +29,10 @@
  *
  *===================*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     line-height: 24px;
     font-size: 14px;
@@ -837,8 +841,8 @@ input {
     justify-content: center;
 }
 
-.team-overlay h3 {
-    margin-top: 20px;
+.team-overlay #pubtitle {
+    margin-top: 0;
 }
 
 .subt {
@@ -865,6 +869,14 @@ input {
     text-align: center;
     padding: 15px 15px;
     text-transform: capitalize;
+    height: 80px;
+}
+
+#name {
+    text-align: center;
+    padding: 15px 15px;
+    text-transform: capitalize;
+    margin-top: 20px;
 }
 
 .team .team-overlay {
@@ -1555,6 +1567,26 @@ textarea {
     visibility: hidden;
 }
 
+@media screen and (max-width: 1342px) {
+    #pubs .block img {
+        width: 290px;
+        height: 190px;
+        margin-bottom: 40px;
+    }
+    .peeps img {
+        width: 230px;
+        height: 290px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    #pubs .block img {
+        width: 250px;
+        height: 160px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     html,
     body {
@@ -1636,7 +1668,6 @@ textarea {
     }
     #banner {
         height: auto;
-        margin-bottom: 40px;
     }
     #banner .container {
         flex-direction: column;
@@ -1646,6 +1677,7 @@ textarea {
     #home_content {
         margin: 0;
         font-size: 12px;
+        margin-bottom: 40px;
     }
     .col-md-1,
     .col-md-2,
