@@ -1115,6 +1115,10 @@ footer {
    News Post
    ===================== */
 
+.news_block {
+    height: 330px;
+}
+
 #blog {
     padding: 100px 0;
     background: #f1f1f1;
@@ -1578,6 +1582,16 @@ textarea {
         height: 290px;
         margin-bottom: 40px;
     }
+    #nav {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .nomar {
+        margin: 0;
+    }
+    .links {
+        margin-left: 50px;
+    }
 }
 
 @media screen and (max-width: 1190px) {
@@ -1759,6 +1773,9 @@ textarea {
         text-align: center;
         margin: 18px;
         font-size: 12px;
+    }
+    #blog-post {
+        margin-bottom: 50px;
     }
     #research {
         padding: 40px 0;
