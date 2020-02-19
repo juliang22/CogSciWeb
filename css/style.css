@@ -802,6 +802,10 @@ input {
     background-color: #F5F5F5
 }
 
+.team-overlay ul a {
+    word-break: break-all;
+}
+
 .team .block {
     position: relative;
     border: 3px solid transparent;
